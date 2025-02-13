@@ -1,10 +1,9 @@
-
 (defun md-to-gopher ()
   "Find the date and title in the buffer, print them to the minibuffer, and write the remaining content to a text file."
 (interactive)
   (let ((content (buffer-string))
-        (output-dir "~/src/normanbauer.me/gopher") ;; Change this to your desired directory
-        (gopher-dir "~/src/normanbauer.me/gopher/") ;; Change this to your gopher directory
+        (output-dir "~/") ;; Change this to your desired directory
+        (gopher-dir "~/gopher/") ;; Change this to your gopher directory
         title date)
 ;; Ensure the directory exists
     (unless (file-exists-p output-dir)

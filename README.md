@@ -1,0 +1,1 @@
+I have a Go Hugo blog that I also want to create a gopher site with. This allows me to write my post in emacs and when I am ready, I can just C-c g and it takes the Hugo Markdown can creates a plain text file, which it then moves it to the gopher directory and then appends an entry in the gophermap for me. 
